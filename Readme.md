@@ -1,5 +1,7 @@
 # Lumina - AI Art Generator
 
+> 🎨 A modern AI art generator with real-time prompt enhancement and generation progress tracking. Built with Stable Diffusion, FastAPI, and Next.js. Features GPT-4/Gemini Pro prompt enhancement, WebSocket updates, and content safety validation.
+
 Lumina is an AI-powered image generation system that uses Stable Diffusion with prompt enhancement capabilities.
 
 ## Features
