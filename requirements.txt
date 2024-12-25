@@ -1,0 +1,14 @@
+diffusers[torch]
+huggingface_hub
+transformers
+accelerate
+sentencepiece
+protobuf
+google-generativeai
+openai
+python-dotenv
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+pydantic>=2.5.2
+tenacity>=8.0.0
