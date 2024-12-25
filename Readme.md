@@ -47,7 +47,13 @@ Lumina is an AI-powered image generation system that uses Stable Diffusion with 
    pip install -r requirements.txt
    ```
 
-4. Create a `.env` file in the root directory:
+4. Install PyTorch with CUDA support (if you have a compatible GPU) from the [pytorch official website](https://pytorch.org/get-started/locally/)
+
+   ```bash
+   pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+   ```
+
+5. Create a `.env` file in the root directory:
 
    ```env
    OPENAI_API_KEY=your_openai_key
@@ -55,7 +61,7 @@ Lumina is an AI-powered image generation system that uses Stable Diffusion with 
    HF_TOKEN=your_huggingface_token
    ```
 
-5. Start the backend server:
+6. Start the backend server:
 
    ```bash
    python main.py
