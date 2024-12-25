@@ -64,7 +64,7 @@ Lumina is an AI-powered image generation system that uses Stable Diffusion with 
 6. Start the backend server:
 
    ```bash
-   python main.py
+   uvicorn main:app
    ```
 
 The server will start at `http://localhost:8000`
